@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSEP", "MSEP\MSEP.csproj", "{2B0346F5-DC4A-47E7-A4BF-5A27B0604100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSEP.Tests", "MSEP.Tests\MSEP.Tests.csproj", "{103DD046-05A7-4337-906D-470BD0275536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B0346F5-DC4A-47E7-A4BF-5A27B0604100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0346F5-DC4A-47E7-A4BF-5A27B0604100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0346F5-DC4A-47E7-A4BF-5A27B0604100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0346F5-DC4A-47E7-A4BF-5A27B0604100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{103DD046-05A7-4337-906D-470BD0275536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103DD046-05A7-4337-906D-470BD0275536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103DD046-05A7-4337-906D-470BD0275536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103DD046-05A7-4337-906D-470BD0275536}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

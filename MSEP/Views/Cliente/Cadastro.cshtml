@@ -1,0 +1,46 @@
+﻿@model MSEP.Models.Cliente
+@{
+    ViewBag.Title = "Cadastro";
+}
+
+<h2>Cadastro</h2>
+
+<form action="Cliente/CadastroOk" method="post">
+    <fieldset>    
+        <legend>Dados Pessoais</legend>
+        <div>
+            <label for="Nome">Nome</label>
+        </div>
+        <div>
+            <input type="text" maxlength="100" id="Nome" />
+        </div>
+        <div>
+            <label for="Sobrenome">Sobrenome</label>
+        </div>
+        <div>
+            <input type="text" maxlength="100" id="Sobrenome" />
+        </div>
+        <div>
+            <label for="Logradouro">Logradouro (Rua, Avenida, Praça)</label>
+        </div>
+        <div>
+            <input type="text" maxlength="50" id="Logradouro" />
+        </div>
+        <div>
+            <label for="Endereco">Endereço</label>
+        </div>
+        <div>
+            <input type="text" maxlength="200" id="Endereco" />
+        </div>
+        <div>
+            <label for="Numero">Número</label>
+        </div>
+        <div>
+            <input type="text" maxlength="10" id="Numero"/>
+        </div>
+        <div>
+            s
+        </div>
+
+    </fieldset>
+</form>
